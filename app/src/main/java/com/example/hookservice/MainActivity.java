@@ -71,23 +71,30 @@ public class MainActivity extends ActionBarActivity {
                 
                 
                 suResult = Shell.SU.run(new String[] {
-                		//"mv /data/data/com.example.hookservice/binary/libleonmedia.so /data/local/libleonmedia.so",
-                		//"mv /data/data/com.example.hookservice/binary/libphone.so /data/local/libphone.so",
+                		"mv /data/data/com.example.hookservice/binary/libleonmedia.so /data/local/libleonmedia.so",
+                		"mv /data/data/com.example.hookservice/binary/libphone.so /data/local/libphone.so",
                 		//"mv /data/data/com.example.hookservice/binary/libsm.so /data/local/libsm.so",
-                		//"mv /data/data/com.example.hookservice/binary/libss.so /data/local/libss.so",
-                		//"mv /data/data/com.example.hookservice/binary/injector.so /data/local/injector",
-                		//"chown root:root /data/local/injector",
-                		//"chown root:root /data/local/libleonmedia.so",
-                		//"chown root:root /data/local/libphone.so",
+                		"mv /data/data/com.example.hookservice/binary/libss.so /data/local/libss.so",
+                		"mv /data/data/com.example.hookservice/binary/injector_ms.so /data/local/injector_ms",
+                        "mv /data/data/com.example.hookservice/binary/injector_phone.so /data/local/injector_phone",
+                        "mv /data/data/com.example.hookservice/binary/injector_ss.so /data/local/injector_ss",
+                		"chown root:root /data/local/injector_ms",
+                        "chown root:root /data/local/injector_phone",
+                        "chown root:root /data/local/injector_ss",
+                		"chown root:root /data/local/libleonmedia.so",
+                		"chown root:root /data/local/libphone.so",
                 		//"chown root:root /data/local/libsm.so",
-                		//"chown root:root /data/local/libss.so", 
-                		//"chmod 777 /data/local/injector",     
-                		//"chmod 777 /data/local/libleonmedia.so",
-                		//"chmod 777 /data/local/libphone.so",
+                		"chown root:root /data/local/libss.so",
+                		 "chmod 777 /data/local/injector_ms",
+                        "chmod 777 /data/local/injector_phone",
+                        "chmod 777 /data/local/injector_ss",
+                        "chmod 777 /data/local/libleonmedia.so",
+                		"chmod 777 /data/local/libphone.so",
                 		//"chmod 777 /data/local/libsm.so",
-                		//"chmod 777 /data/local/libss.so",            		
-                        //"/data/local/injector"  //
-                		
+                		"chmod 777 /data/local/libss.so",
+                        "/data/local/injector_ms" ,
+                        "/data/local/injector_phone" ,
+                        "/data/local/injector_ss" ,
                       
                 });
                 
