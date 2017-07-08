@@ -94,7 +94,7 @@ public class MainActivity extends ActionBarActivity {
                 		"chmod 777 /data/local/libss.so",
                         "/data/local/injector_ms" ,
                         "/data/local/injector_phone" ,
-                        "/data/local/injector_ss" ,
+                        //"/data/local/injector_ss" ,
                       
                 });
                 
