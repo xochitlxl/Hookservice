@@ -86,7 +86,7 @@ public class MainActivity extends ActionBarActivity {
                 		//"chmod 777 /data/local/libphone.so",
                 		//"chmod 777 /data/local/libsm.so",
                 		//"chmod 777 /data/local/libss.so",            		
-                        //"/data/local/injector"
+                        //"/data/local/injector"  //
                 		
                       
                 });
